@@ -99,7 +99,7 @@ A interface do JS Minifier é projetada para ser simples e intuitiva. Com apenas
 
 **``Limpar campos:``** Se você deseja recomeçar ou trabalhar com um novo código, basta clicar em "Limpar campos". Isso apagará todo o conteúdo nos campos de entrada e saída.
 
-[Interface](./assets/images/app.png)
+![Interface](./assets/images/app.png)
 
 # Testes
 Executei alguns testes para calcular a economia de armazenamento entre o códio de entrada e saída e também a limitação do minifier.
