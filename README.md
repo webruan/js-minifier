@@ -1,7 +1,7 @@
 # Índice
 - [Sobre](#sobre)
 - [Recursos](#recursos)
-- [Estrutura de Diretórios](#estrutura-de-diretórios)
+- [Estrutura de Diretórios](#estruturação)
 - [Instalação](#instalação)
 - [Como Usar](#como-usar)
 - [Testes](#testes)
@@ -75,6 +75,31 @@ js_minifier/
 ├── main.py
 └── README.md
 ```
+
+# Como usar
+A interface do JS Minifier é projetada para ser simples e intuitiva. Com apenas dois passos, você pode minificar seu código JavaScript. Aqui estão as funcionalidades e como usá-las:
+
+### 1. Inserindo o código
+
+**``Código de entrada:``** Este é o campo de texto onde você deve colar seu código JavaScript. Insira seu código e o JS Minifier fará o resto.
+
+### 2. Minificando o código
+
+**``Remover espaços:``** Clique no botão "Remover espaços" para iniciar o processo de minificação. O JS Minifier irá remover comentários e espaços em branco desnecessários, tornando seu código mais compacto e eficiente.
+
+### 3. Visualizando o resultado
+
+**``Código de saída:``** Após a minificação, o código minificado aparecerá automaticamente neste campo. Observe que este campo não é habilitado para edição, pois exibe apenas o resultado da minificação.
+
+### 4. Copiando o código minificado
+
+**``Copiar código:``** Para usar o código minificado, clique no botão "Copiar código". Isso copiará o código minificado para a área de transferência do seu sistema, pronto para ser colado em seu projeto.
+
+### 5. Limpar campos
+
+**``Limpar campos:``** Se você deseja recomeçar ou trabalhar com um novo código, basta clicar em "Limpar campos". Isso apagará todo o conteúdo nos campos de entrada e saída.
+
+[Interface](./assets/images/app.png)
 
 # Testes
 Executei alguns testes para calcular a economia de armazenamento entre o códio de entrada e saída e também a limitação do minifier.
