@@ -76,6 +76,32 @@ js_minifier/
 └── README.md
 ```
 
+# Instalação
+Para usar o JS Minifier, siga estas etapas simples:
+
+### 1. Clone o repositório
+Você pode começar clonando o repositório do JS Minifier para o seu sistema local. Abra seu terminal ou prompt de comando e execute o seguinte comando:
+
+``git clone https://github.com/webruan/js-minifier.git``
+
+Isso criará uma cópia local do projeto em seu sistema.
+
+### 2. Instale as dependências
+Certifique-se de que você possui todas as dependências necessárias instaladas. Navegue até o diretório raiz do projeto, onde você clonou o repositório, e execute o seguinte comando para instalar as dependências Python:
+
+``pip install -r requirements.txt``
+
+### 3. Execute o aplicativo
+Agora que você tem o projeto e as dependências instaladas, é hora de executar o aplicativo. A partir do diretório raiz do projeto, execute o seguinte comando:
+
+``python app.py``
+
+Isso iniciará o JS Minifier e abrirá a interface do usuário em seu navegador padrão.
+
+Agora você pode começar a usar o JS Minifier para minificar seu código JavaScript.
+
+> **Observação:** Certifique-se de ter a versão correta do Python <sub>(Python 3.6 ou superior)</sub> instalada e tenha as bibliotecas PyQt5 e outros requisitos instalados conforme especificado no arquivo **requirements.txt**.
+
 # Como usar
 A interface do JS Minifier é projetada para ser simples e intuitiva. Com apenas dois passos, você pode minificar seu código JavaScript. Aqui estão as funcionalidades e como usá-las:
 
@@ -100,6 +126,10 @@ A interface do JS Minifier é projetada para ser simples e intuitiva. Com apenas
 **``Limpar campos:``** Se você deseja recomeçar ou trabalhar com um novo código, basta clicar em "Limpar campos". Isso apagará todo o conteúdo nos campos de entrada e saída.
 
 ![Interface](./assets/images/app.png)
+
+Lembre-se de que o JS Minifier é um projeto em fase inicial, podendo apresentar bugs ou mau funcionamento. Seus recursos podem ser aprimorados com o tempo. Estou ansioso para receber feedbacks e sugestões para melhorar ainda mais esta ferramenta.
+
+> Nota: Certifique-se de respeitar os direitos autorais e as licenças ao usar o código minificado em seus projetos.
 
 # Testes
 Executei alguns testes para calcular a economia de armazenamento entre o códio de entrada e saída e também a limitação do minifier.
