@@ -1,0 +1,34 @@
+QPushButton#greenButton {
+  background-color: #1CAF50;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+QPushButton#greenButton:hover {
+  background-color: #1CAF39;
+}
+QPushButton#blueButton {
+  background-color: #1759DB;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+QPushButton#blueButton:hover {
+  background-color: #1749CC;
+}
+
+QPushButton#yellowButton {
+  background-color: #FA9900;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+QPushButton#yellowButton:hover {
+  background-color: #FA9930;
+}
